@@ -1,0 +1,29 @@
+﻿<div class="settings-content">
+
+    <div class="form-group" >
+        
+        <label style="float:left;width:100%">{{ 'add_new_url' | translate}}</label>
+        <input type="text" class="form-control" ng-model="ctrl.urlCandidate" style="width:80%;float:left"/>
+        <input type="button" class="btn btn-info" value="{{ 'submit' | translate }}"  ng-click="ctrl.addUrl();" style="width:20%;float:right"/>
+    </div>
+
+    <div class="row">
+        <span>
+        </span>
+    </div>
+
+    
+    <div class="list-group" ng-repeat="item in ctrl.urlCollection" >
+
+        <div class="list-group-item">
+            <img src="{{ item.icon}}" />
+            <span ng-click="ctrl.navigateTo(item.url);">{{item.url}}</span>
+            <input type="button" ng-click="ctrl.Remove(item.url);" value="{{ 'remove' | translate }}"
+                    class="url-item-remove" />
+        </div>
+
+    </div>
+
+
+
+</div>

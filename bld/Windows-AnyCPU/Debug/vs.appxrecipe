@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-JNMOD1A</Machine>
+    <WindowsUser>pduro</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myappcce501</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>CD48ECA315A912F42148C270917696B69EA5B6942186B41C5CD7AE6BC9C797BC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myappcce501_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myappcce501_h35559jr9hy9m!io.cordova.myappcce501</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myappcce501</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:49.588</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-01-10T17:38:02.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-01-10T17:38:02.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-10T21:51:48.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\images\back-arrow.png">
+      <PackagePath>www\images\back-arrow.png</PackagePath>
+      <Modified>2016-01-10T21:51:47.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\angular\app.js">
+      <PackagePath>www\js\angular\app.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\angular\controllers\appController.js">
+      <PackagePath>www\js\angular\controllers\appController.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\angular\controllers\mainPageController.js">
+      <PackagePath>www\js\angular\controllers\mainPageController.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\angular\controllers\settingsController.js">
+      <PackagePath>www\js\angular\controllers\settingsController.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\angular\directives\navigationMenuDirective.js">
+      <PackagePath>www\js\angular\directives\navigationMenuDirective.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\angular\services\storageService.js">
+      <PackagePath>www\js\angular\services\storageService.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\js\main.js">
+      <PackagePath>www\js\main.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\angular-translate.js">
+      <PackagePath>www\libs\angular-translate.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\angular-ui-router.js">
+      <PackagePath>www\libs\angular-ui-router.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\angular.min.js">
+      <PackagePath>www\libs\angular.min.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\js\bootstrap.js">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\js\bootstrap.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\js\bootstrap.min.js">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\js\bootstrap.min.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\js\npm.js">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\js\npm.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\jquery-1.11.3.js">
+      <PackagePath>www\libs\jquery-1.11.3.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\jquery.fs.wallpaper.min.js">
+      <PackagePath>www\libs\jquery.fs.wallpaper.min.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\ng-hamburger-helper.js">
+      <PackagePath>www\libs\ng-hamburger-helper.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\ui-bootstrap-tpls-0.14.3.min.js">
+      <PackagePath>www\libs\ui-bootstrap-tpls-0.14.3.min.js</PackagePath>
+      <Modified>2016-01-10T21:51:48.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\winstore-jscompat.js">
+      <PackagePath>www\libs\winstore-jscompat.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-01-10T21:51:47.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2016-01-10T21:51:47.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\css\ng-hamburger-helper.css">
+      <PackagePath>www\css\ng-hamburger-helper.css</PackagePath>
+      <Modified>2016-01-10T21:51:47.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.css">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.css</PackagePath>
+      <Modified>2016-01-10T21:51:48.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css</PackagePath>
+      <Modified>2016-01-10T21:51:48.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap.css">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap.css</PackagePath>
+      <Modified>2016-01-10T21:51:48.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap.min.css">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap.min.css</PackagePath>
+      <Modified>2016-01-10T21:51:48.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-01-10T21:51:47.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\views\mainPage.html">
+      <PackagePath>www\views\mainPage.html</PackagePath>
+      <Modified>2016-01-10T21:51:47.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\views\noUrlSetMessage.html">
+      <PackagePath>www\views\noUrlSetMessage.html</PackagePath>
+      <Modified>2016-01-10T21:51:47.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\views\settingsPage.html">
+      <PackagePath>www\views\settingsPage.html</PackagePath>
+      <Modified>2016-01-10T21:51:47.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map</PackagePath>
+      <Modified>2016-01-10T21:51:47.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map</PackagePath>
+      <Modified>2016-01-10T21:51:47.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap.css.map">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap.css.map</PackagePath>
+      <Modified>2016-01-10T21:51:47.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\css\bootstrap.min.css.map">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\css\bootstrap.min.css.map</PackagePath>
+      <Modified>2016-01-10T21:51:47.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2016-01-10T21:51:47.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2016-01-10T21:51:47.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2016-01-10T21:51:47.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2016-01-10T21:51:47.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\libs\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2016-01-10T21:51:47.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-01-10T21:51:49.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pduro\OneDrive\Sela\DN7\Examples\WebBookMarks\WebBookMarks\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-01-10T21:51:49.458</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
