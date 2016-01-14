@@ -18,9 +18,32 @@ app.controller('mainPageController', ['$rootScope', '$state', 'storageService', 
         } else {
             url = $rootScope.nextUrl;
         }
-        //var per = $sce.trustAsResourceUrl(url);
-        //var trusted = $sce.getTrustedResourceUrl(url);
-        this.startPageUrl = url;//
-
+        this.startPageUrl = url;
     }
+
+
+  
+
+    (function () {
+        this.left_qesture_area = document.getElementById("left-gesture-container");
+
+
+        this.right_qesture_area = document.getElementById("right-gesture-container");
+
+
+        this.hammertime = new Hammer(this.left_qesture_area);
+        this.hammertime.on('swipe', function (ev) {
+            console.log("Left - " + ev);
+
+            var webview = document.getElementById("main-webview");
+            webview.goBack();
+
+        });
+
+        this.hammertime.on('press', function (ev) {
+            console.log("Left - " + ev);
+            $state.go("settings");
+        });
+        
+    })();
 }]);

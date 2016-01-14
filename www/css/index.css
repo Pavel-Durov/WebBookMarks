@@ -1,5 +1,23 @@
 ﻿body {
 }
+.right-main-gesture-container {
+    opacity:0.5;
+    background-color:black;
+    width:10px;
+    height:100%;
+    margin-left:97%;
+    z-index:999999;
+    position:absolute;
+}
+
+.left-main-webview-container{
+    opacity:0.5;
+    background-color:black;
+    width:14px;
+    height:100%;
+    z-index:999999;
+    position:absolute;
+}
 
 .webView-back-button {
     height: 50px;

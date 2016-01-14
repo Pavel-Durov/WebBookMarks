@@ -1,11 +1,23 @@
 ﻿
-<div class="noUrsMessage">
-    <span ng-show="{{ctrl.noConfigurationsYet}}" >
-        You have no <mark>URLS</mark>... Go to <code>settings</code> and set some
-    </span>
+
+    <div class="noUrsMessage">
+        <span ng-show="{{ctrl.noConfigurationsYet}}">
+            You have no <mark>URLS</mark>... Go to <code>settings</code> and set some
+        </span>
+    </div>
+
+    <x-ms-webview id="main-webview" 
+                  
+                  ng-hide="{{ctrl.noConfigurationsYet}}" ng-src="{{ ctrl.startPageUrl }}" class="mainWebView">
+        <!-->-->
+
+    </x-ms-webview>
+
+<!--<div id="right-gesture-container" class="right-main-gesture-container ">
+
+</div>-->
+
+
+<div id="left-gesture-container" class="left-main-webview-container">
+
 </div>
-
-<x-ms-webview id="main-webview" ng-hide="{{ctrl.noConfigurationsYet}}" ng-src="{{ ctrl.startPageUrl }}" class="mainWebView">
-    <!-->-->
-
-</x-ms-webview>
