@@ -8,7 +8,11 @@
 
             if (localStorage && localStorage.urlCollection) {
                 var temp = localStorage.getItem('urlCollection');
-                result = JSON.parse(temp);
+                if (temp != undefined) {
+                    result = JSON.parse(temp);
+                } else {
+                    localStorage.removeItem('urlCollection');
+                }
             }
 
             return result;
@@ -20,11 +24,18 @@
         },
         Remove: function (url) {
             var arr = this._get();
-            var index = arr.indexOf(url);
-            if (index > -1) {
-                arr.splice(index, 1);
+            var result = -1;
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].url == url) {
+                    arr.splice(i, 1);
+                    result = i;
+                    break;
+                }
             }
+
             this._set(arr);
+            return result;
         },
         GetFirstUrl: function () {
             return this._get()[0];

@@ -1,4 +1,4 @@
-var app = angular.module("my-app", ["ui.router", "pascalprecht.translate", 'hamburgerHelper']);
+var app = angular.module("my-app", ["ui.router", "pascalprecht.translate", 'hamburgerHelper', 'ngTouch']);
 
 app.config(['$compileProvider', '$translateProvider', '$sceProvider', function ($compileProvider, $translateProvider, $sceProvider) {
 
@@ -12,7 +12,11 @@ app.config(['$compileProvider', '$translateProvider', '$sceProvider', function (
         'add_new_url': 'Please add a new url',
         'submit' : 'Submit',
         'back' : 'Back',
-        'remove' : 'Remove'
+        'remove': 'Remove',
+        'addBookMark': "Add new book mark",
+        "url" : "URL",
+        "image" : "Image Url", 
+        "iamgeUrlPlacehoder": "If you won't enter an image url, favorite icon will be used"
     });
 
     $translateProvider.preferredLanguage('en_EN');
@@ -27,7 +31,8 @@ app.filter('trusted', ['$sce', function ($sce) {
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 	
-	$urlRouterProvider.otherwise("/mainPage");
+    //$urlRouterProvider.otherwise("/mainPage");
+    $urlRouterProvider.otherwise("/settings");
 	 
 	$stateProvider.state('mainPage', {
 	    url: "/mainPage",

@@ -18,11 +18,10 @@ app.controller('mainPageController', ['$rootScope', '$state', 'storageService', 
         } else {
             url = $rootScope.nextUrl;
         }
+
         this.startPageUrl = url;
     }
 
-
-  
 
     (function () {
         this.left_qesture_area = document.getElementById("left-gesture-container");
@@ -37,13 +36,13 @@ app.controller('mainPageController', ['$rootScope', '$state', 'storageService', 
 
             var webview = document.getElementById("main-webview");
             webview.goBack();
-
         });
 
         this.hammertime.on('press', function (ev) {
             console.log("Left - " + ev);
             $state.go("settings");
         });
-        
+
+
     })();
 }]);

@@ -1,0 +1,68 @@
+﻿<div class="settings-content">
+
+
+    <div class="overlay" ng-show="ctrl.submitPopUpvisibility">
+    </div>
+
+    <input type="button" class="btn btn-info addNewBookMarkButton" value="{{ 'addBookMark' | translate }}"
+           ng-click="ctrl.submitPopUpShow();" />
+
+    <!--Popup Div Starts Here swipeLeft-->
+    <div ng-show="ctrl.submitPopUpvisibility" class="submit-popup-style">
+
+        <input type="button" class="round-button" value="X" ng-click="ctrl.submitPopUpHide();" style="width:20%;float:right" />
+
+        <div>
+            <label>{{ 'url' | translate}}</label>
+            <input type="text" class="form-control" ng-model="ctrl.urlCandidate" />
+        </div>
+
+
+        <div>
+            <label>{{ 'image' | translate}}</label>
+            <input type="text" class="form-control" ng-model="ctrl.urlImage" placeholder="{{ 'iamgeUrlPlacehoder' | translate}}" />
+        </div>
+
+        <input type="button" class="btn btn-info" value="{{ 'submit' | translate }}" ng-click="ctrl.addUrl();" style="width:20%;float:right" />
+
+
+    </div>
+
+    <!--ng-click="ctrl.navigateTo(item.url);"-->
+    <div class="list-group" ng-repeat="item in ctrl.urlCollection">
+
+
+        <!--<div class="row settings-bookmark-list-item" id="{{$index}}">
+             <!--ng-click="ctrl.navigateTo(item.url);"
+             ng-swipe-left="ctrl.showActions = true"
+             ng-swipe-right="ctrl.showActions = false"-->
+        <!--<img src="{{ item.icon}}"
+                 style="pointer-events: none;"
+                 class="col-xsm-1 col-sm-1 col-md-1 col-lg-1 col-xlg-1 settings-bookmark-list-item-img"
+                 imageonload />
+
+            <span style="pointer-events: none;" class="col-xsm-9 col-sm-9 col-md-9 col-lg-9 col-xlg-9 fixed">{{item.url}}</span>
+
+            <input type="button" ng-click="ctrl.Remove(item.url);"
+                   value="{{ 'remove' | translate }}" ng-show="ctrl.showActions"
+                   class="col-xsm-2 col-sm-2 col-md-2 col-lg-2 col-xlg-2 fixed" />
+        </div>-->
+
+
+        <div swipe-li
+             class="item"
+             disabled=""
+             intent="true"
+             accept="done(item)"
+             reject="skip(item)"
+             main-content="'sample-content.html'"
+             accept-content="'accept-content.html'"
+             reject-content="'reject-content.html'"
+             reset-to-content="false"></div>
+    </div>
+
+
+
+
+
+</div>
