@@ -1,7 +1,7 @@
 ﻿
 
 
-app.controller('settingsController', ['$rootScope', '$scope', '$state', 'storageService', function ($rootScope, $scope, $state, storageService) {
+app.controller('settingsController', ['$rootScope', '$state', '$timeout', 'storageService', function ($rootScope, $state,$timeout, storageService) {
 
     this.showActions = false;
 
@@ -47,14 +47,19 @@ app.controller('settingsController', ['$rootScope', '$scope', '$state', 'storage
 
         $event.stopPropagation();
 
-        $('#' + indexOfElement).one('oanimationend animationend', function () {
+        //$('#' + indexOfElement).one('oanimationend animationend', function () {
+        //Works not consistently
+        //});
 
-            var result = storageService.Remove(item.url);
+        storageService.context = this;
+        $timeout(function () {
+            var result = storageService.Remove(indexOfElement);
 
-            if (result != -1) {
-                storageService.context.urlCollection.splice(result, 1);
+            if (result != undefined) {
+                storageService.context.urlCollection.splice(indexOfElement, 1);
             }
-        });
+        }, 1000);
+
     }
 
     this.ovelayClicked = function () {

@@ -106,6 +106,6 @@
   </platform>
   <preference name="KeepRunning" value="True" />
   <preference name="ShowTitle" value="True" />
-  <preference name="InAppBrowserStorageEnabled" value="True" />
+ 
   <preference name="SuppressesIncrementalRendering" value="True" />
 </widget>

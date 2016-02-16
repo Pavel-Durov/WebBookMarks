@@ -31,8 +31,8 @@ app.filter('trusted', ['$sce', function ($sce) {
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 	
-    //$urlRouterProvider.otherwise("/mainPage");
-    $urlRouterProvider.otherwise("/settings");
+    $urlRouterProvider.otherwise("/mainPage");
+    //$urlRouterProvider.otherwise("/settings");
 	 
 	$stateProvider.state('mainPage', {
 	    url: "/mainPage",

@@ -104,22 +104,49 @@
 }
 
 .settings-bookmark-list-item {
+    display: table;
+    width: 100%;
+    height: 50px;
 }
 
-    .settings-bookmark-list-item span {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        display: block;
-        overflow: hidden;
+    .settings-bookmark-list-item #remove-btn {
+        float: right;
+        width: 10%;
+        height: 100%;
     }
 
-.settings-bookmark-list-item-img {
-    float: left;
-    padding: 5px;
-    max-width: 100px;
-    max-height: 100px;
-}
+    .settings-bookmark-list-item #url-container {
+        float: left;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+        display: table;
+    }
 
+        .settings-bookmark-list-item #url-container span {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: table-cell;
+            vertical-align: middle;
+            font-size:15px;
+        }
+
+    .settings-bookmark-list-item #image-container {
+        float: left;
+        display: table;
+        width: 10%;
+        height: 100%;
+        display: table;
+    }
+
+    .settings-bookmark-list-item #image-container img {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 5px;
+        max-width: 50px;
+        max-height: 50px;
+    }
 
 
 /*Round button Style*/
@@ -142,9 +169,10 @@
     float: right;
     margin: 4px;
 }
-.settings-bookmark-list-item-remove span{
-    float: right;
-}
+
+    .settings-bookmark-list-item-remove span {
+        float: right;
+    }
 
 .settings-bookmark-list-item-popup-remove {
     float: right;
@@ -153,7 +181,6 @@
 
 .settings-bookmark-list-item-remove span {
     font-size: 45px;
-    
 }
 
     .settings-bookmark-list-item-remove span :hover {
