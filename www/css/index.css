@@ -70,9 +70,14 @@
     font-size: 40px;
 }
 
-
+.submit-url-btn {
+    width:100%;
+    margin-top:30px;
+    margin-bottom:20px;
+}
 
 .submit-popup-style {
+    border-radius:10px;
     position: absolute;
     float: left;
     margin-left: 10%;
@@ -80,7 +85,10 @@
     height: auto;
     background: #006699;
     z-index: 9999;
-    padding: 20px;
+    padding: 20px; 
+    box-shadow: 3px 1px 23px #999992;
+}
+
 }
 
     .submit-popup-style input {
@@ -107,6 +115,7 @@
     display: table;
     width: 100%;
     height: 50px;
+    margin-left:0px;
 }
 
     .settings-bookmark-list-item #remove-btn {

@@ -24,15 +24,6 @@
         },
         Remove: function (index) {
             var arr = this._get();
-            //var result = -1;
-
-            //for (var i = 0; i < arr.length; i++) {
-            //    if (arr[i].url == url) {
-            //        arr.splice(i, 1);
-            //        result = i;
-            //        break;
-            //    }
-            //}
             var result = arr.splice(index, 1);
             this._set(arr);
             return result;
