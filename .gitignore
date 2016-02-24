@@ -90,3 +90,8 @@ bin/Windows Phone (Universal)/Debug/AppxManifest.xml
 bin/Windows Phone (Universal)/Debug/CordovaApp.Phone.build.appxrecipe
 bin/Windows Phone (Universal)/Debug/resources.pri
 bld/Windows Phone (Universal)/Debug/changeList.json
+bin/Windows Phone (Universal)/Debug/AppxManifest.xml
+bin/Windows Phone (Universal)/Debug/CordovaApp.Phone.build.appxrecipe
+bin/Windows Phone (Universal)/Debug/resources.pri
+bld/Windows Phone (Universal)/Debug/changeList.json
+bld/Windows Phone (Universal)/Debug/changeList.json
