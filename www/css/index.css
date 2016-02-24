@@ -139,6 +139,7 @@
             display: table-cell;
             vertical-align: middle;
             font-size:15px;
+            max-width:100px;
         }
 
     .settings-bookmark-list-item #image-container {
